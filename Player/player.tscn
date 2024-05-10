@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://4kqpjp4qu6qt"]
+
+[ext_resource type="Script" path="res://Player/Player.cs" id="1_1ujlp"]
+[ext_resource type="Texture2D" uid="uid://cxgjx0cbtiqnx" path="res://Player/stickman.png" id="1_ad36r"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_e46iy"]
+size = Vector2(249.99, 567.684)
+
+[node name="Player" type="CharacterBody2D"]
+scale = Vector2(0.412017, 0.466809)
+script = ExtResource("1_1ujlp")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_ad36r")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-1.21354, 1.07111)
+shape = SubResource("RectangleShape2D_e46iy")

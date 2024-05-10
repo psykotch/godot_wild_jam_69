@@ -1,0 +1,13 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1715375890
+icon.svg::CompressedTexture2D::1713525751119272012::1715369267::1715369283::1::::<><>::
+README.md::TextFile::-1::1715369021::0::1::::<><>::
+::res://LevelOne/::1715375406
+green_rectangle.png::CompressedTexture2D::1332938515631838362::1715373776::1715373778::1::::<><>::
+level.tscn::PackedScene::3175801520555796339::1715375406::0::1::::<><>::uid://s8xkj2xtincs::::res://LevelOne/green_rectangle.png<>uid://4kqpjp4qu6qt::::res://Player/player.tscn
+::res://Main/::1715375406
+main.tscn::PackedScene::3452718492042662239::1715375406::0::1::::<><>::
+::res://Player/::1715375406
+Player.cs::CSharpScript::-1::1715375335::0::1::::<><>::
+player.tscn::PackedScene::2057118999058422447::1715375406::0::1::::<><>::res://Player/Player.cs<>uid://cxgjx0cbtiqnx::::res://Player/stickman.png
+stickman.png::CompressedTexture2D::6400159880024538017::1715372486::1715372624::1::::<><>::
