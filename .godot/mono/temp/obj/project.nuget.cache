@@ -1,12 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "C4RKlactztbPnnA2LPrnpQUW4N5SS2SWm0pODf6w4+WKRZKZQ0mu3cJKo7BYGWxGgWIwv650v/+/dWUsnpLk2A==",
+  "dgSpecHash": "SpQvz0ANa6xEaOD01XN4FhKkC8v+Dosysyix/kFkNHkM+EYrAa08ME3GsvgSaPq9A5lrl3i8tAc6zAv99EoOmQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mathi\\Documents\\GitRepos\\godot_wild_jam_69\\godot_wild_jam_#69.csproj",
+  "projectFilePath": "C:\\Users\\Celeste\\Documents\\Creation\\Game\\GodotJam69\\godot_wild_jam_69\\godot_wild_jam_#69.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\mathi\\.nuget\\packages\\godot.sourcegenerators\\4.2.1\\godot.sourcegenerators.4.2.1.nupkg.sha512",
-    "C:\\Users\\mathi\\.nuget\\packages\\godotsharp\\4.2.1\\godotsharp.4.2.1.nupkg.sha512",
-    "C:\\Users\\mathi\\.nuget\\packages\\godotsharpeditor\\4.2.1\\godotsharpeditor.4.2.1.nupkg.sha512"
+    "C:\\Users\\Celeste\\.nuget\\packages\\godot.sourcegenerators\\4.2.2\\godot.sourcegenerators.4.2.2.nupkg.sha512",
+    "C:\\Users\\Celeste\\.nuget\\packages\\godotsharp\\4.2.2\\godotsharp.4.2.2.nupkg.sha512",
+    "C:\\Users\\Celeste\\.nuget\\packages\\godotsharpeditor\\4.2.2\\godotsharpeditor.4.2.2.nupkg.sha512",
+    "C:\\Users\\Celeste\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.29\\microsoft.netcore.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\Celeste\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.29\\microsoft.windowsdesktop.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\Celeste\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.29\\microsoft.aspnetcore.app.ref.6.0.29.nupkg.sha512"
   ],
   "logs": []
 }

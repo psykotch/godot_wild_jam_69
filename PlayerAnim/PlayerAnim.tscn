@@ -1,0 +1,217 @@
+[gd_scene load_steps=4 format=3 uid="uid://qninm3x7ufc1"]
+
+[ext_resource type="Script" path="res://PlayerAnim/player_game_of_life_anim.cs" id="1_s6q5e"]
+[ext_resource type="Texture2D" uid="uid://gjm4o67najft" path="res://Assets/Textures/Player/Gaz.png" id="2_6ymbd"]
+[ext_resource type="Texture2D" uid="uid://c8dg00lq62lnx" path="res://Assets/Textures/Player/Cell/Cell.png" id="2_wycdk"]
+
+[node name="Node2D" type="Node2D"]
+position = Vector2(85, 58)
+script = ExtResource("1_s6q5e")
+
+[node name="Gaz" type="Sprite2D" parent="."]
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("2_6ymbd")
+
+[node name="AntiCells" type="Node2D" parent="."]
+modulate = Color(1, 1, 1, 0.6)
+
+[node name="AntiRow1" type="Node2D" parent="AntiCells"]
+
+[node name="AntiCell1" type="Sprite2D" parent="AntiCells/AntiRow1"]
+scale = Vector2(0.412017, 0.466809)
+texture = ExtResource("2_wycdk")
+offset = Vector2(-80, -80)
+
+[node name="AntiCell2" type="Sprite2D" parent="AntiCells/AntiRow1"]
+scale = Vector2(0.412017, 0.466809)
+texture = ExtResource("2_wycdk")
+offset = Vector2(-48, -80)
+
+[node name="AntiCell3" type="Sprite2D" parent="AntiCells/AntiRow1"]
+scale = Vector2(0.412017, 0.466809)
+texture = ExtResource("2_wycdk")
+offset = Vector2(-16, -80)
+
+[node name="AntiCell4" type="Sprite2D" parent="AntiCells/AntiRow1"]
+scale = Vector2(0.412017, 0.466809)
+texture = ExtResource("2_wycdk")
+offset = Vector2(16, -80)
+
+[node name="AntiCell5" type="Sprite2D" parent="AntiCells/AntiRow1"]
+scale = Vector2(0.412017, 0.466809)
+texture = ExtResource("2_wycdk")
+offset = Vector2(48, -80)
+
+[node name="AntiCell6" type="Sprite2D" parent="AntiCells/AntiRow1"]
+scale = Vector2(0.412017, 0.466809)
+texture = ExtResource("2_wycdk")
+offset = Vector2(80, -80)
+
+[node name="AntiRow2" type="Node2D" parent="AntiCells"]
+
+[node name="AntiCell1" type="Sprite2D" parent="AntiCells/AntiRow2"]
+scale = Vector2(0.412017, 0.466809)
+texture = ExtResource("2_wycdk")
+offset = Vector2(-80, -48)
+
+[node name="AntiCell2" type="Sprite2D" parent="AntiCells/AntiRow2"]
+scale = Vector2(0.412017, 0.466809)
+texture = ExtResource("2_wycdk")
+offset = Vector2(-48, -48)
+
+[node name="AntiCell3" type="Sprite2D" parent="AntiCells/AntiRow2"]
+scale = Vector2(0.412017, 0.466809)
+texture = ExtResource("2_wycdk")
+offset = Vector2(-16, -48)
+
+[node name="AntiCell4" type="Sprite2D" parent="AntiCells/AntiRow2"]
+scale = Vector2(0.412017, 0.466809)
+texture = ExtResource("2_wycdk")
+offset = Vector2(16, -48)
+
+[node name="AntiCell5" type="Sprite2D" parent="AntiCells/AntiRow2"]
+scale = Vector2(0.412017, 0.466809)
+texture = ExtResource("2_wycdk")
+offset = Vector2(48, -48)
+
+[node name="AntiCell6" type="Sprite2D" parent="AntiCells/AntiRow2"]
+scale = Vector2(0.412017, 0.466809)
+texture = ExtResource("2_wycdk")
+offset = Vector2(80, -48)
+
+[node name="AntiRow3" type="Node2D" parent="AntiCells"]
+
+[node name="AntiCell1" type="Sprite2D" parent="AntiCells/AntiRow3"]
+scale = Vector2(0.412017, 0.466809)
+texture = ExtResource("2_wycdk")
+offset = Vector2(-80, -16)
+
+[node name="AntiCell2" type="Sprite2D" parent="AntiCells/AntiRow3"]
+scale = Vector2(0.412017, 0.466809)
+texture = ExtResource("2_wycdk")
+offset = Vector2(-48, -16)
+
+[node name="AntiCell3" type="Sprite2D" parent="AntiCells/AntiRow3"]
+scale = Vector2(0.412017, 0.466809)
+texture = ExtResource("2_wycdk")
+offset = Vector2(-16, -16)
+
+[node name="AntiCell4" type="Sprite2D" parent="AntiCells/AntiRow3"]
+scale = Vector2(0.412017, 0.466809)
+texture = ExtResource("2_wycdk")
+offset = Vector2(16, -16)
+
+[node name="AntiCell5" type="Sprite2D" parent="AntiCells/AntiRow3"]
+scale = Vector2(0.412017, 0.466809)
+texture = ExtResource("2_wycdk")
+offset = Vector2(48, -16)
+
+[node name="AntiCell6" type="Sprite2D" parent="AntiCells/AntiRow3"]
+scale = Vector2(0.412017, 0.466809)
+texture = ExtResource("2_wycdk")
+offset = Vector2(80, -16)
+
+[node name="AntiRow4" type="Node2D" parent="AntiCells"]
+
+[node name="AntiCell1" type="Sprite2D" parent="AntiCells/AntiRow4"]
+scale = Vector2(0.412017, 0.466809)
+texture = ExtResource("2_wycdk")
+offset = Vector2(-80, 16)
+
+[node name="AntiCell2" type="Sprite2D" parent="AntiCells/AntiRow4"]
+scale = Vector2(0.412017, 0.466809)
+texture = ExtResource("2_wycdk")
+offset = Vector2(-48, 16)
+
+[node name="AntiCell3" type="Sprite2D" parent="AntiCells/AntiRow4"]
+scale = Vector2(0.412017, 0.466809)
+texture = ExtResource("2_wycdk")
+offset = Vector2(-16, 16)
+
+[node name="AntiCell4" type="Sprite2D" parent="AntiCells/AntiRow4"]
+scale = Vector2(0.412017, 0.466809)
+texture = ExtResource("2_wycdk")
+offset = Vector2(16, 16)
+
+[node name="AntiCell5" type="Sprite2D" parent="AntiCells/AntiRow4"]
+scale = Vector2(0.412017, 0.466809)
+texture = ExtResource("2_wycdk")
+offset = Vector2(48, 16)
+
+[node name="AntiCell6" type="Sprite2D" parent="AntiCells/AntiRow4"]
+scale = Vector2(0.412017, 0.466809)
+texture = ExtResource("2_wycdk")
+offset = Vector2(80, 16)
+
+[node name="AntiRow5" type="Node2D" parent="AntiCells"]
+
+[node name="AntiCell1" type="Sprite2D" parent="AntiCells/AntiRow5"]
+scale = Vector2(0.412017, 0.466809)
+texture = ExtResource("2_wycdk")
+offset = Vector2(-80, 48)
+
+[node name="AntiCell2" type="Sprite2D" parent="AntiCells/AntiRow5"]
+scale = Vector2(0.412017, 0.466809)
+texture = ExtResource("2_wycdk")
+offset = Vector2(-48, 48)
+
+[node name="AntiCell3" type="Sprite2D" parent="AntiCells/AntiRow5"]
+scale = Vector2(0.412017, 0.466809)
+texture = ExtResource("2_wycdk")
+offset = Vector2(-16, 48)
+
+[node name="AntiCell4" type="Sprite2D" parent="AntiCells/AntiRow5"]
+scale = Vector2(0.412017, 0.466809)
+texture = ExtResource("2_wycdk")
+offset = Vector2(16, 48)
+
+[node name="AntiCell5" type="Sprite2D" parent="AntiCells/AntiRow5"]
+scale = Vector2(0.412017, 0.466809)
+texture = ExtResource("2_wycdk")
+offset = Vector2(48, 48)
+
+[node name="AntiCell6" type="Sprite2D" parent="AntiCells/AntiRow5"]
+scale = Vector2(0.412017, 0.466809)
+texture = ExtResource("2_wycdk")
+offset = Vector2(80, 48)
+
+[node name="AntiRow6" type="Node2D" parent="AntiCells"]
+
+[node name="AntiCell1" type="Sprite2D" parent="AntiCells/AntiRow6"]
+scale = Vector2(0.412017, 0.466809)
+texture = ExtResource("2_wycdk")
+offset = Vector2(-80, 80)
+
+[node name="AntiCell2" type="Sprite2D" parent="AntiCells/AntiRow6"]
+scale = Vector2(0.412017, 0.466809)
+texture = ExtResource("2_wycdk")
+offset = Vector2(-48, 80)
+
+[node name="AntiCell3" type="Sprite2D" parent="AntiCells/AntiRow6"]
+scale = Vector2(0.412017, 0.466809)
+texture = ExtResource("2_wycdk")
+offset = Vector2(-16, 80)
+
+[node name="AntiCell4" type="Sprite2D" parent="AntiCells/AntiRow6"]
+scale = Vector2(0.412017, 0.466809)
+texture = ExtResource("2_wycdk")
+offset = Vector2(16, 80)
+
+[node name="AntiCell5" type="Sprite2D" parent="AntiCells/AntiRow6"]
+scale = Vector2(0.412017, 0.466809)
+texture = ExtResource("2_wycdk")
+offset = Vector2(48, 80)
+
+[node name="AntiCell6" type="Sprite2D" parent="AntiCells/AntiRow6"]
+scale = Vector2(0.412017, 0.466809)
+texture = ExtResource("2_wycdk")
+offset = Vector2(80, 80)
+
+[node name="CPUParticles2D" type="CPUParticles2D" parent="."]
+texture = ExtResource("2_wycdk")
+emission_shape = 1
+emission_sphere_radius = 44.96
+gravity = Vector2(0, 0)
+orbit_velocity_min = -1.0
+orbit_velocity_max = 1.0
+color = Color(1, 1, 1, 0.113725)

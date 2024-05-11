@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mathi\\Documents\\GitRepos\\godot_wild_jam_69\\godot_wild_jam_#69.csproj": {}
+    "C:\\Users\\Celeste\\Documents\\Creation\\Game\\GodotJam69\\godot_wild_jam_69\\godot_wild_jam_#69.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mathi\\Documents\\GitRepos\\godot_wild_jam_69\\godot_wild_jam_#69.csproj": {
+    "C:\\Users\\Celeste\\Documents\\Creation\\Game\\GodotJam69\\godot_wild_jam_69\\godot_wild_jam_#69.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mathi\\Documents\\GitRepos\\godot_wild_jam_69\\godot_wild_jam_#69.csproj",
+        "projectUniqueName": "C:\\Users\\Celeste\\Documents\\Creation\\Game\\GodotJam69\\godot_wild_jam_69\\godot_wild_jam_#69.csproj",
         "projectName": "godot_wild_jam_#69",
-        "projectPath": "C:\\Users\\mathi\\Documents\\GitRepos\\godot_wild_jam_69\\godot_wild_jam_#69.csproj",
-        "packagesPath": "C:\\Users\\mathi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mathi\\Documents\\GitRepos\\godot_wild_jam_69\\.godot\\mono\\temp\\obj\\",
+        "projectPath": "C:\\Users\\Celeste\\Documents\\Creation\\Game\\GodotJam69\\godot_wild_jam_69\\godot_wild_jam_#69.csproj",
+        "packagesPath": "C:\\Users\\Celeste\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Celeste\\Documents\\Creation\\Game\\GodotJam69\\godot_wild_jam_69\\.godot\\mono\\temp\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\mathi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Celeste\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -51,15 +47,15 @@
           "dependencies": {
             "Godot.SourceGenerators": {
               "target": "Package",
-              "version": "[4.2.1, )"
+              "version": "[4.2.2, )"
             },
             "GodotSharp": {
               "target": "Package",
-              "version": "[4.2.1, )"
+              "version": "[4.2.2, )"
             },
             "GodotSharpEditor": {
               "target": "Package",
-              "version": "[4.2.1, )"
+              "version": "[4.2.2, )"
             }
           },
           "imports": [
@@ -73,12 +69,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.29, 6.0.29]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.29, 6.0.29]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.29, 6.0.29]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     }
