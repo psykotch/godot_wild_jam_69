@@ -206,12 +206,3 @@ offset = Vector2(48, 80)
 scale = Vector2(0.412017, 0.466809)
 texture = ExtResource("2_wycdk")
 offset = Vector2(80, 80)
-
-[node name="CPUParticles2D" type="CPUParticles2D" parent="."]
-texture = ExtResource("2_wycdk")
-emission_shape = 1
-emission_sphere_radius = 44.96
-gravity = Vector2(0, 0)
-orbit_velocity_min = -1.0
-orbit_velocity_max = 1.0
-color = Color(1, 1, 1, 0.113725)
