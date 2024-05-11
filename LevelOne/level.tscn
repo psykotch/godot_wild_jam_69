@@ -22,3 +22,5 @@ shape = SubResource("RectangleShape2D_nwmws")
 [node name="Player" parent="." instance=ExtResource("2_ahl24")]
 position = Vector2(129, 374)
 scale = Vector2(0.137948, 0.126544)
+Speed = null
+JumpVelocity = null

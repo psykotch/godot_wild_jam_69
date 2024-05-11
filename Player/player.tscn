@@ -9,6 +9,8 @@ size = Vector2(249.99, 567.684)
 [node name="Player" type="CharacterBody2D"]
 scale = Vector2(0.412017, 0.466809)
 script = ExtResource("1_1ujlp")
+accel = 2000.0
+friction = 1500.0
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture = ExtResource("1_ad36r")

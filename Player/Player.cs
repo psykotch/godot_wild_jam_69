@@ -3,37 +3,52 @@ using System;
 
 public partial class Player : CharacterBody2D
 {
-	public const float Speed = 300.0f;
-	public const float JumpVelocity = -400.0f;
+    [Export]
+    public float maxSpeed = 400;
+    [Export]
+    public float accel = 1500;
+    [Export]
+    public float friction = 600;
 
-	// Get the gravity from the project settings to be synced with RigidBody nodes.
-	public float gravity = ProjectSettings.GetSetting("physics/2d/default_gravity").AsSingle();
+    private Vector2 playerInput = Vector2.Zero; 
 
-	public override void _PhysicsProcess(double delta)
+    private Vector2 getInput()
+    {
+        Vector2 input = Vector2.Zero;
+
+        if (Input.IsActionPressed("ui_right"))
+            input.X++;
+        if (Input.IsActionPressed("ui_left"))
+            input.X--;
+        if (Input.IsActionPressed("ui_up"))
+            input.Y--;
+        if (Input.IsActionPressed("ui_down"))
+            input.Y++;
+        return input.Normalized();
+    }
+
+    public void playerMovement(double delta)
+    {
+        playerInput = getInput();
+
+        /* Case when there's no input and the player stops */
+        if (playerInput == Vector2.Zero)
+        {
+            if (Velocity.Length() > (friction * delta)) /* then we decelerate for the next frame */
+                Velocity -= Velocity.Normalized() * (friction * (float)(delta));
+            else /* then we stop completely */
+                Velocity = Vector2.Zero;
+        }
+        /* case when player moves */
+        else
+        {
+            Velocity += (playerInput * accel * (float)delta);
+            Velocity = Velocity.LimitLength(maxSpeed);
+        }
+        MoveAndSlide();
+    }
+    public override void _PhysicsProcess(double delta)
 	{
-		Vector2 velocity = Velocity;
-
-		// Add the gravity.
-		if (!IsOnFloor())
-			velocity.Y += gravity * (float)delta;
-
-		// Handle Jump.
-		if (Input.IsActionJustPressed("ui_accept") && IsOnFloor())
-			velocity.Y = JumpVelocity;
-
-		// Get the input direction and handle the movement/deceleration.
-		// As good practice, you should replace UI actions with custom gameplay actions.
-		Vector2 direction = Input.GetVector("ui_left", "ui_right", "ui_up", "ui_down");
-		if (direction != Vector2.Zero)
-		{
-			velocity.X = direction.X * Speed;
-		}
-		else
-		{
-			velocity.X = Mathf.MoveToward(Velocity.X, 0, Speed);
-		}
-
-		Velocity = velocity;
-		MoveAndSlide();
+        playerMovement(delta);
 	}
 }

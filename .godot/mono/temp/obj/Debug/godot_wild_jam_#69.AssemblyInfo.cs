@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("godot_wild_jam_#69")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4040b1af72a3aec53a93be36251529bcafb3a645")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2309e8013345181c8af805d96c3a3ac7a5f4ee16")]
 [assembly: System.Reflection.AssemblyProductAttribute("godot_wild_jam_#69")]
 [assembly: System.Reflection.AssemblyTitleAttribute("godot_wild_jam_#69")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
