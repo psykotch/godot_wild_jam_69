@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mathi\\Documents\\GitRepos\\godot_wild_jam_69\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7AECA914-9833-466C-BD07-6224B932A6B7}|godot_wild_jam_#69.csproj|c:\\users\\mathi\\documents\\gitrepos\\godot_wild_jam_69\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AECA914-9833-466C-BD07-6224B932A6B7}|godot_wild_jam_#69.csproj|solutionrelative:player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\mathi\\Documents\\GitRepos\\godot_wild_jam_69\\Player\\Player.cs",
+              "RelativeDocumentMoniker": "Player\\Player.cs",
+              "ToolTip": "C:\\Users\\mathi\\Documents\\GitRepos\\godot_wild_jam_69\\Player\\Player.cs",
+              "RelativeToolTip": "Player\\Player.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T07:41:36.197Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
