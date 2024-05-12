@@ -1,7 +1,3 @@
-res://Player/player.tscn
-res://Main/main.tscn
-res://LevelOne/level.tscn
-res://Player/Player.cs
-res://Player/player_game_of_life_anim.cs
-res://PlayerAnim/player_game_of_life_anim.cs
 res://PlayerAnim/PlayerAnim.tscn
+res://PlayerAnim/player_game_of_life_anim.cs
+res://Player/Player.cs
