@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("godot_wild_jam_#69")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+28e1bea2a5fb8b69e565cf04698399606772f4bd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+54e579bb7aad75e5b0678033625e3e6c31b535fe")]
 [assembly: System.Reflection.AssemblyProductAttribute("godot_wild_jam_#69")]
 [assembly: System.Reflection.AssemblyTitleAttribute("godot_wild_jam_#69")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

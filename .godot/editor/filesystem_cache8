@@ -4,10 +4,9 @@ icon.svg::CompressedTexture2D::1713525751119272012::1715413242::1715413242::1:::
 README.md::TextFile::-1::1715413242::0::1::::<><>::
 ::res://Assets/::1715416965
 ::res://Assets/Textures/::1715434937
-::res://Assets/Textures/Player/::1715422014
-Gaz.png::CompressedTexture2D::440493638238327281::1715422009::1715422014::1::::<><>::
-::res://Assets/Textures/Player/Cell/::1715417051
-Cell.png::CompressedTexture2D::7095676618353741061::1715417049::1715417051::1::::<><>::
+::res://Assets/Textures/Player/::1715500365
+Gaz.png::CompressedTexture2D::440493638238327281::1715499867::1715499884::1::::<><>::
+GazParticle.png::CompressedTexture2D::3740922755827383975::1715500365::1715500366::1::::<><>::
 ::res://Assets/Textures/Tiles/::1715434941
 ::res://Assets/Textures/Tiles/Lab/::1715435014
 ::res://Assets/Textures/Tiles/Lab/Walls/::1715494875
@@ -21,6 +20,5 @@ main.tscn::PackedScene::3452718492042662239::1715421366::0::1::::<><>::
 Player.cs::CSharpScript::-1::1715414060::0::1::::<>CharacterBody2D<>::
 player.tscn::PackedScene::2057118999058422447::1715422859::0::1::::<><>::res://Player/Player.cs<>uid://cxgjx0cbtiqnx::::res://Player/stickman.png
 stickman.png::CompressedTexture2D::6400159880024538017::1715413242::1715413242::1::::<><>::
-::res://PlayerAnim/::1715489992
-PlayerAnim.tscn::PackedScene::1150368034897485426::1715489992::0::1::::<><>::res://PlayerAnim/player_game_of_life_anim.cs<>uid://gjm4o67najft::::res://Assets/Textures/Player/Gaz.png<>uid://c8dg00lq62lnx::::res://Assets/Textures/Player/Cell/Cell.png<>uid://spi13m8smht::::res://Assets/Textures/Tiles/Lab/Walls/TileWall.png
-player_game_of_life_anim.cs::CSharpScript::-1::1715422313::0::1::::<>Node<>::
+::res://PlayerAnim/::1715500223
+PlayerAnim.tscn::PackedScene::1150368034897485426::1715500223::0::1::::<><>::uid://jr38jkn8iwpd::::res://Assets/Textures/Player/GazParticle.png<>uid://gjm4o67najft::::res://Assets/Textures/Player/Gaz.png
